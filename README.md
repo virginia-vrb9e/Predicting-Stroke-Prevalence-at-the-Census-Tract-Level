@@ -12,5 +12,4 @@ An examination of EQI (EPA) data as it relates to health outcomes and risks (CDC
 **What we built**. Using CDC PLACES health data integrated with EPA Environmental Quality Index (EQI) measurements at the census tract level (71,000 tracts), we trained an XGBoost model that achieves R^2=0.99 nationwide and identifies the highest-burden neighborhoods within each state.
 
 **This model makes targeted intervention possible using a novel level of analysis**.  Intervention strategies can include increased local public health education and screening campaigns, recreation infrastructure investment in low physical activity areas, and EMS placement decisions at neighborhood resolution — a level of granularity that even county-level surveillance cannot always provide.
-<img width="468" height="413" alt="image" src="https://github.com/user-attachments/assets/c90f3a87-bafc-464e-88ea-7a03e2fd8cf1" />
 
