@@ -1,0 +1,76 @@
+Column1,Column2,Column3,Column4
+Variable Name,Description,Source,Units
+tract,Census tract FIPS code (numeric),EPA EQI,Numeric ID
+State,State FIPS code,EPA EQI,Numeric code
+County,County FIPS code,EPA EQI,Numeric code
+RUCA_pri_cat,Primary Rural-Urban Commuting Area category (1=Urban core to 5=Rural),USDA ERS / EPA EQI,Category 1-5
+X_pop,Tract population,US Census 2010,Count
+X_sqmile,Tract area,US Census 2010,Square miles
+X_pop_dens,Population density,US Census 2010,Persons per square mile
+facilities,Number of industrial/commercial facilities in tract,EPA Toxic Release Inventory,Count
+facilities_area,Facilities per square mile,EPA Toxic Release Inventory,Count per sq mile
+facilities_area_log,Log-transformed facilities per square mile,EPA Toxic Release Inventory,Log(count per sq mile)
+bs_25yo,Percentage of adults 25+ with at least a bachelor's degree,US Census ACS,Percent
+time2work,Mean travel time to work,US Census ACS,Minutes
+crime_index,Crime index score,FBI UCR,Index score
+ln_crime_index,Log-transformed crime index,FBI UCR,Log(index score)
+education,Education index score,US Census ACS,Index score
+education_area,Education facilities per tract area,US Census ACS,Count per sq mile
+education_area_log,Log-transformed education facilities per area,US Census ACS,Log(count per sq mile)
+food_ratio,Ratio of healthy to unhealthy food outlets,USDA Food Environment Atlas,Ratio
+mean_drought,Mean drought severity,NOAA / PDSI,Palmer Drought Severity Index
+nindex_open,Natural environment index (open space),NLCD,Index score
+nata_sum,Sum of cancer risk from air toxics (National Air Toxics Assessment),EPA NATA,Risk per million
+nata_sum_ln,Log-transformed air toxics cancer risk,EPA NATA,Log(risk per million)
+ozone,Mean ozone concentration,EPA AQS,Parts per billion (ppb)
+pm25,Mean fine particulate matter concentration,EPA AQS,Micrograms per cubic meter (µg/m³)
+pest,Pesticide use intensity,USDA NASS,Pounds per square mile
+ln_pest,Log-transformed pesticide use,USDA NASS,Log(pounds per sq mile)
+poverty,Percentage of population below poverty line,US Census ACS,Percent
+ln_poverty,Log-transformed poverty rate,US Census ACS,Log(percent)
+rent_income_pct,Median gross rent as percentage of household income,US Census ACS,Percent
+selfservice,Percentage of tract on self-supplied (private well) water,USGS Water Use Data,Percent
+ln_selfservice,Log-transformed self-service water percentage,USGS Water Use Data,Log(percent)
+unemployment,Unemployment rate,US Census ACS,Percent
+ln_unemployment,Log-transformed unemployment rate,US Census ACS,Log(percent)
+OverallEQI,Overall Environmental Quality Index score (higher = worse environment),EPA EQI 2011-2015,Index score
+RUCA1_EQI,EQI score for urban core tracts only,EPA EQI 2011-2015,Index score
+RUCA2_EQI,EQI score for urban cluster tracts only,EPA EQI 2011-2015,Index score
+RUCA3_EQI,EQI score for large rural city tracts only,EPA EQI 2011-2015,Index score
+RUCA4_EQI,EQI score for small rural town tracts only,EPA EQI 2011-2015,Index score
+RUCA5_EQI,EQI score for isolated rural tracts only,EPA EQI 2011-2015,Index score
+tract_fips,11-digit census tract FIPS code (zero-padded string),US Census 2010,String ID
+StateAbbr,State abbreviation,CDC PLACES 2020,Text
+StateDesc,State full name,CDC PLACES 2020,Text
+CountyName,County name,CDC PLACES 2020,Text
+CountyFIPS,5-digit county FIPS code,CDC PLACES 2020,String ID
+PLACES_ACCESS2,Current lack of health insurance among adults 18-64,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_ARTHRITIS,Arthritis among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_BINGE,Binge drinking among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_BPHIGH,High blood pressure among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_BPMED,Taking blood pressure medication among adults with high blood pressure,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_CANCER,Cancer (excluding skin cancer) among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_CASTHMA,Current asthma among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_CERVICAL,Cervical cancer screening among adult women,CDC PLACES 2020 (BRFSS 2018),Percent of adult women
+PLACES_CHD,Coronary heart disease among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_CHECKUP,Visits to doctor for routine checkup within past year,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_CHOLSCREEN,Cholesterol screening among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_COLON_SCREEN,Colorectal cancer screening among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_COPD,Chronic obstructive pulmonary disease among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_COREM,Core preventive services for older men (65+),CDC PLACES 2020 (BRFSS 2018),Percent of older men
+PLACES_COREW,Core preventive services for older women (65+),CDC PLACES 2020 (BRFSS 2018),Percent of older women
+PLACES_CSMOKING,Current cigarette smoking among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_DENTAL,Visited dentist or dental clinic in past year,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_DIABETES,Diagnosed diabetes among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_HIGHCHOL,High cholesterol among adults who have been screened,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_KIDNEY,Chronic kidney disease among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_LPA,No leisure-time physical activity among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_MAMMOUSE,Mammography use among women aged 50-74,CDC PLACES 2020 (BRFSS 2018),Percent of women 50-74
+PLACES_MHLTH,Mental health not good for 14+ days in past 30 days,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_OBESITY,Obesity among adults (BMI ≥ 30),CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_PHLTH,Physical health not good for 14+ days in past 30 days,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_SLEEP,Sleep less than 7 hours among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_STROKE,Stroke among adults,CDC PLACES 2020 (BRFSS 2018),Percent of adults
+PLACES_TEETHLOST,All teeth lost among adults 65+,CDC PLACES 2020 (BRFSS 2018),Percent of adults 65+
+,,,
+,,,
